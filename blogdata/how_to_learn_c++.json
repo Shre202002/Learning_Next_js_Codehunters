@@ -1,0 +1,6 @@
+{
+    "title": " learn C++",
+    "content": "C++ (or “C-plus-plus”) is a generic programming language for building software. It’s an object-oriented language. In other words, it emphasizes using data fields with unique attributes (a.k.a. objects) rather than logic or functions. A common example of an object is a user account on a website. Typically, a user account contains closely related data like first name, last name, and email address. Bundling this information together into an object makes it easy to replicate the process of creating a new account.",
+    "author": "Shre",
+    "slug": "learn C++"
+}
