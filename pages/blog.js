@@ -11,11 +11,11 @@ const blog = () => {
     fetch("http://localhost:3000/api/blogs").then((data) => {
       return data.json()
     }).then((parse) => {
-      console.log(parse);
+      // console.log(parse);
       setBlogdata(parse)
     })
   }, [])
-
+console.log(typeof blogdata);
 
   return (
     <div className={styles.display}>
@@ -25,13 +25,13 @@ const blog = () => {
           return <div className={styles.card} key={content.title}>
 
 
-          <Link href={`/blogpost/${content.slug}`}>
-            <Image src='/blog_logo-3.jpg' width={150} height={150} className={styles.cardImage} />
-            <h1>{content.title}</h1>
-          </Link>
-  
-          <p> {content.content.substr(0,100)} </p>
-        </div>
+            <Link href={`/blogpost/${content.slug}`}>
+              <Image src='/blog_logo-3.jpg' width={150} height={150} className={styles.cardImage} />
+              <h1>{content.title}</h1>
+            </Link>
+
+            <p> {content.content.substr(0, 100)} </p>
+          </div>
 
         })
       }

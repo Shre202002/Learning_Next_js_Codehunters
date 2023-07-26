@@ -1,0 +1,33 @@
+.heading {
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    /* border: 2px solid red; */
+    margin: 20px;
+}
+
+.table {
+    border: 2px solid blue;
+    padding: 80px;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: repeat(4, 1fr);
+
+}
+
+.cell {
+    /* border: 2px solid red; */
+    margin: 15px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    text-align: left;
+}
+
+.feedbackQuestions {
+    font-size: 30px;
+}
+
+.btn {
+    /* width: 100% */
+}
