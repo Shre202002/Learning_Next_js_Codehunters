@@ -1,6 +1,7 @@
 {
     "cSpell.words": [
         "allblog",
+        "allblogs",
         "blogdata",
         "blogpost",
         "compdata",
@@ -8,6 +9,8 @@
         "featchuser",
         "formdata",
         "formsubmit",
-        "labelledby"
+        "labelledby",
+        "mayprops",
+        "myprops"
     ]
 }
